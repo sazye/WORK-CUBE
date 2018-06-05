@@ -1,0 +1,57 @@
+﻿
+
+
+@model IEnumerable<WORKCUBE.Models.Project>
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<div class="relative100">
+    <div id="captioned-gallery">
+        <div class="row" style="margin-right:0; margin-left:0;">
+            <div class="col-md-12" style="padding-bottom: 10%; padding-top: 10%;">
+                <h2 style="color:#e65728; font-weight:bold; font-size:30px;">NEW PROJECT</h2>
+                @using (Html.BeginForm())
+            {
+                    @Html.AntiForgeryToken()
+                    if (ViewBag.Success != null && ViewBag.Success)
+                    {
+                        <div id="wrapper">
+                            <div id="message-sent">
+                                <div id="close-button">
+                                    <span>X</span>
+                                </div>
+                                <span>başarıyla kaydedilmiştir</span>
+                            </div>
+                        </div>
+                    }
+                    <div class="block">
+                        <div class="form-group">
+                            <label for="input-demo-g">File Input</label>
+                            <input type="file" id="picture" name="picture">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="kategoriName" id="kategoriName" placeholder="kategoriAdi:">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="city" id="city" placeholder="city:">
+                        </div>
+                        <div class="inputbox type2">
+                            <input type="text" id="location" name="location" placeholder="Location :">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="prices" id="prices" placeholder="prices:">
+                        </div>
+                        <div class="relative100">
+                            <input type="submit" class="btn btn-success" value="SAVE" style="text-transform:uppercase; border-radius:2px!important; min-width:120px; font-size:100%; padding:10px 16px; text-shadow:none;">
+                            <a href="/Category/Kategori">
+                                <input type="button" value="GO BACK" class="btn btn-primary" style="text-transform:uppercase; border-radius:2px!important; min-width:120px; font-size:100%; padding:10px 16px; text-shadow:none;" />
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,102 @@
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\csc.exe
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\csc.exe.config
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\csc.rsp
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\csi.exe
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\csi.rsp
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\System.AppContext.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\System.Collections.Immutable.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\System.IO.FileSystem.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\vbc.exe
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\vbc.exe.config
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\vbc.rsp
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\VBCSCompiler.exe
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\roslyn\VBCSCompiler.exe.config
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\WORKCUBE.dll.config
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\WORKCUBE.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\WORKCUBE.pdb
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\Microsoft.Web.Infrastructure.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Helpers.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Mvc.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Razor.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Deployment.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Razor.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Razor.xml
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.xml
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Deployment.xml
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Razor.xml
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Helpers.xml
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\bin\System.Web.Mvc.xml
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\obj\Debug\WORKCUBE.csprojResolveAssemblyReference.cache
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\obj\Debug\WORKCUBE.dll
+c:\users\saziy\documents\visual studio 2017\Projects\WORKCUBE\WORKCUBE\obj\Debug\WORKCUBE.pdb
+C:\Users\saziy\Documents\Visual Studio 2017\Projects\WORKCUBE\WORKCUBE\bin\EntityFramework.dll
+C:\Users\saziy\Documents\Visual Studio 2017\Projects\WORKCUBE\WORKCUBE\bin\EntityFramework.SqlServer.dll
+C:\Users\saziy\Documents\Visual Studio 2017\Projects\WORKCUBE\WORKCUBE\bin\EntityFramework.xml
+C:\Users\saziy\Documents\Visual Studio 2017\Projects\WORKCUBE\WORKCUBE\bin\EntityFramework.SqlServer.xml
+D:\WORKCUBE\WORKCUBE\bin\roslyn\csc.exe
+D:\WORKCUBE\WORKCUBE\bin\roslyn\csc.exe.config
+D:\WORKCUBE\WORKCUBE\bin\roslyn\csc.rsp
+D:\WORKCUBE\WORKCUBE\bin\roslyn\csi.exe
+D:\WORKCUBE\WORKCUBE\bin\roslyn\csi.rsp
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WORKCUBE\WORKCUBE\bin\roslyn\System.AppContext.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\System.Collections.Immutable.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\System.IO.FileSystem.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\System.Reflection.Metadata.dll
+D:\WORKCUBE\WORKCUBE\bin\roslyn\vbc.exe
+D:\WORKCUBE\WORKCUBE\bin\roslyn\vbc.exe.config
+D:\WORKCUBE\WORKCUBE\bin\roslyn\vbc.rsp
+D:\WORKCUBE\WORKCUBE\bin\roslyn\VBCSCompiler.exe
+D:\WORKCUBE\WORKCUBE\bin\roslyn\VBCSCompiler.exe.config
+D:\WORKCUBE\WORKCUBE\bin\WORKCUBE.dll.config
+D:\WORKCUBE\WORKCUBE\bin\WORKCUBE.dll
+D:\WORKCUBE\WORKCUBE\bin\WORKCUBE.pdb
+D:\WORKCUBE\WORKCUBE\bin\EntityFramework.dll
+D:\WORKCUBE\WORKCUBE\bin\EntityFramework.SqlServer.dll
+D:\WORKCUBE\WORKCUBE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WORKCUBE\WORKCUBE\bin\Microsoft.Web.Infrastructure.dll
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Helpers.dll
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Mvc.dll
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Razor.dll
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Deployment.dll
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.dll
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Razor.dll
+D:\WORKCUBE\WORKCUBE\bin\EntityFramework.xml
+D:\WORKCUBE\WORKCUBE\bin\EntityFramework.SqlServer.xml
+D:\WORKCUBE\WORKCUBE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Razor.xml
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.xml
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Deployment.xml
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Webpages.Razor.xml
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Helpers.xml
+D:\WORKCUBE\WORKCUBE\bin\System.Web.Mvc.xml
+D:\WORKCUBE\WORKCUBE\obj\Debug\WORKCUBE.csprojResolveAssemblyReference.cache
+D:\WORKCUBE\WORKCUBE\obj\Debug\WORKCUBE.dll
+D:\WORKCUBE\WORKCUBE\obj\Debug\WORKCUBE.pdb

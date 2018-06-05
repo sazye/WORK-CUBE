@@ -1,0 +1,179 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Narus Global</title>
+    <link rel="icon" href="~/Content/images/logo.ico">
+    <meta name="description" content="" />
+    <meta name="keywords" content="Lokasyon, Konsept, Emlak, Konut, Narus, Global" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1" />
+    <script src="~/Scripts/jquery-1.6.min.js"></script>
+    <link href="~/Content/css/landing.css" rel="stylesheet" />
+    <link href="~/Content/css/animate.min.css" rel="stylesheet" />
+    <link href="~/Content/css/validationEngine.jquery.css" rel="stylesheet" />
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/fontawesome-all.css" rel="stylesheet" />
+    <link href="~/Content/css/slider.css" rel="stylesheet" />
+    <link href="~/Content/css/social.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.validationEngine-tr.js"></script>
+    <script src="~/Scripts/jquery.validationEngine.js"></script>
+    <script src="~/Scripts/jquery.blockUI.js"></script>
+    <script src="~/Scripts/LightAlert.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&amp;subset=cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="~/Scripts/jquery.fancybox.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.fancybox.js"></script>
+    <link href="~/Content/css/navi.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAgGxSEZYs2b6ILkvXMNf53jzaZxgKTTSg"></script>
+    <link href="~/Content/css/site1.css" rel="stylesheet" />
+</head>
+<body>
+    <script src="~/Scripts/navi-accordion.js"></script>
+    <script src="~/Scripts/jquery.easing.js"></script>
+
+    <div id="content">
+        <div class="contentleft">
+            @* SAĞ TARAF SABİT KISIM *@
+            <div class="contentright">
+                <div class="relative100">
+                    <a href="/Home/Anasayfa">
+                        <img src="~/Content/images/logo.png" class="tk_logo" />
+                    </a>
+                </div>
+                <p class="p1">
+                    <b> LET US CALL YOU </b>
+                </p>
+
+                @* İLETİŞİM FORMU *@
+                <div class="bsadiv">
+                    @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "contact-form", action = "/Home/Anasayfa" }))
+                    {
+                        if (ViewBag.Success != null && ViewBag.Success)
+                        {
+                            <div id="wrapper">
+                                <div id="message-sent">
+                                    <div id="close-button">
+                                        <span>X</span>
+                                    </div>
+                                    <span>Mesajınız başarıyla gönderilmiştir.</span>
+                                </div>
+                            </div>
+                        }
+                        <div class="inputbox">
+                            <input type="text" name="NickName" id="input-nickname" placeholder="Name:" required>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="SurName" placeholder="Surname:">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="Email" id="input-email" placeholder="E-Mail:" required>
+                        </div>
+                        <div class="inputbox type2">
+                            <input type="text" id="txtCeptel" name="Phone" class="validate[required,custom[integer],minSize[10],maxSize[30]]" placeholder="Phone Number:">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="Message" id="input-text" placeholder="Message:" required>
+                        </div>
+                        <div class="relative100">
+                            <button type="submit" class="contact-button" onclick="formEksikMi()">
+                                <span>
+                                    SEND
+                                </span>
+                            </button>
+                        </div>
+                    }
+
+                    <script>
+                        function formEksikMi() {
+                            var rumuzDegeri = document.getElementById("input-nickname").value;
+                            var epostaDegeri = document.getElementById("input-email").value;
+                            var iletiDegeri = document.getElementById("input-text").value;
+                            if (rumuzDegeri === "" || iletiDegeri === "" || epostaDegeri === "") {
+                                alert("Lütfen gerekli alanlari doldurunuz.");
+                                return false;
+                            }
+                        }
+                        $('#wrapper').click(function () {
+                            $(this).fadeOut('slow');
+                        });
+                    </script>
+
+                </div>
+
+                <a href="/Login/login">
+                    <i class="fa fa-user" style="max-width: 100%;padding-left: 20%; font-weight: bold;font-size: 25px; color:#e65728; padding-top:5%;">LOGIN</i>
+                </a>
+            </div>
+
+            @RenderBody()
+
+            @* SOL ALT *@
+            <div class="footer relative100" style="z-index:-1; height:initial; font-weight:bold; background-color:#f8f8f8;">
+                <div class="footeric">
+
+                    <div class="footerbox" style="width: 100%;">
+                        <a href="/Home/Anasayfa">
+                            <img src="~/Content/images/footerlogo.png" class="footerlogo_img wow fadeInUp animated" data-wow-delay="0.5s" style="position: relative; top: 32px; visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        </a>
+                        <span class="span12 wow fadeInUp animated" data-wow-delay="0.5s" style="font-size: 13px; float: none; margin-left: 15px; visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            ISTANBUL / TURKEY<br>
+                            <a href="#" style="text-decoration: none; color: #202121; cursor:default;">
+                                +90 111 11 11
+                            </a>
+                        </span>
+                    </div>
+
+                    <div class="footerbox" style="width: 100%;">
+                        <span class="span13 wow fadeInUp animated" data-wow-delay="0.5s" style="margin-left: 0px; margin-top: 43px; visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            info@narusglobal.com
+                        </span>
+                        <span class="span14 wow fadeInUp animated" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <a href="#" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </span>
+                    </div>
+
+                    <div class="footerbox" style="width: 100%;">
+                        <span class="socialall socialall2" style="margin-top: 25px; padding-left: 0px;">
+                            <a class="linesoc wow fadeInUp animated" data-wow-delay="0.5s" href="#" style="float: none; visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                <img src="~/Content/images/line.png">
+                            </a>
+                            <a class="watssoc wow fadeInUp animated" data-wow-delay="0.5s" href="#" style="float: none; visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                <img src="~/Content/images/whatsapp.png">
+                            </a>
+                            <a class="imosoc wow fadeInUp animated" data-wow-delay="0.5s" href="#" style="float: none; visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                <img src="~/Content/images/imo.png">
+                            </a>
+                            <a href="#" class="telsoc wow fadeInUp animated" data-wow-delay="0.5s" style="width: 100%; visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp; display: inline-block; position: relative; float: left; color: #4d5255;font-size: 15px; font-family: 'Avenir-Black'; text-decoration: none; margin-left: 10px; padding-top: 4px; cursor: default;">+90 111 11 11</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/site1.js"></script>
+    <script src="~/Scripts/plugins.js"></script>
+    <script src="~/Scripts/scrolldown.js"></script>
+    <script src="~/Scripts/ScrollToPlugin.min.js"></script>
+    <script src="~/Scripts/TweenMax.min.js"></script>
+</body>
+</html>

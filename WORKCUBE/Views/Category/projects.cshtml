@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WORKCUBE.Models.Project>
+
+@foreach (var item in Model)
+{
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" style="min-width:33%; max-width:100%;">
+        <div class="projectitem">
+            <a href="/Detail/Detay">
+                <div class="imgp" name="picture" id="picture">
+                    <img src="~/Content/images/@item.picture" style="height:255px; width:100%;" />
+                </div>
+                <span class="span8">
+                    @item.kategoriName
+                </span>
+                <span class="span9" style="margin-top: 8px; font-size: 15px;">
+                    <b>City:</b> @item.city
+                </span>
+                <span class="span10" style="margin-top: 8px; font-size: 15px;">
+                    <b>Location:</b> @item.location
+                </span>
+                <span class="span11" style="margin-top: 8px; font-size: 15px;">
+                    <b>Prices:</b> Starting from <label> @item.prices USD</label>
+                </span>
+                <span class="spanplus" data-val="" style="left: initial;">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+}

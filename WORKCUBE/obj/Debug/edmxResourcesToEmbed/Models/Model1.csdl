@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WorkcubeDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="Self.FK_Project_Login" FromRole="Login" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="kategoriID" />
+    </Key>
+    <Property Name="kategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kategoriName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="prices" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="userID" Type="Int32" />
+    <NavigationProperty Name="Login" Relationship="Self.FK_Project_Login" FromRole="Project" ToRole="Login" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Project_Login">
+    <End Role="Login" Type="Self.Login" Multiplicity="0..1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Login">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WorkcubeDBEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Login" EntityType="Self.Login" />
+    <EntitySet Name="Project" EntityType="Self.Project" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Project_Login" Association="Self.FK_Project_Login">
+      <End Role="Login" EntitySet="Login" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

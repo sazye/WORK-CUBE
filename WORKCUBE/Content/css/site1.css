@@ -1,0 +1,167 @@
+﻿.navi-main-wrapper .img1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: auto;
+    display: block;
+    width: 208px;
+}
+
+.navi-main-menu-button-wrapper {
+    left: 2px;
+    top: 2px;
+    right: initial;
+    z-index: 99999999;
+    width: 100px;
+    background-color: #000;
+}
+
+.navi-main-wrapper {
+    z-index: 9999999;
+}
+
+.span3 {
+    position: absolute;
+    right: -50px;
+    top: 1px;
+    color: #fff;
+}
+
+.navi-main-menu-button:before, .navi-main-menu-button div.navi-main-menu-button-middle:before, .navi-main-menu-button:after, .navi-main-menu-button-two:before, .navi-main-menu-button-two div.navi-main-menu-button-two-middle:before, .navi-main-menu-button-two:after, .navi-main-menu-button-three:before, .navi-main-menu-button-three div.navi-main-menu-button-three-middle:before, .navi-main-menu-button-three:after, .navi-main-menu-button-four:before, .navi-main-menu-button-four div.navi-main-menu-button-four-middle:before, .navi-main-menu-button-four:after, .navi-main-menu-button-five:before, .navi-main-menu-button-five div.navi-main-menu-button-five-middle:before, .navi-main-menu-button-five:after, .navi-main-menu-button-six:before, .navi-main-menu-button-six:after {
+    background-color: #fff;
+}
+
+.navi-main-menu-button-four {
+    left: 10px;
+    right: initial;
+}
+
+.nar {
+    margin-top: 1px;
+    background: white;
+    transition: .3s ease-in-out;
+    border: 1px solid #bbb;
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 9999;
+}
+
+#message-sent {
+    max-width:100%;
+    height:auto;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+   right:2%;
+    margin-top: -30px;
+    margin-left: -170px;
+    font-weight: 600;
+    border-radius: 0 16px;
+    color: #191970;
+    background:orange;
+    box-shadow: 0 0 20px 4px #0d6636;
+}
+
+#close-button {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: white;
+    border-radius: 0 8px;
+    border: 1px solid #0d6636;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#contact-form {
+    width:100%;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 2px #1c3564;
+    border-radius: 0 26px;
+    overflow: hidden;
+    background: #1f709d;
+}
+
+.contact-line {
+    width: 440px;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    margin-top: 8px;
+}
+
+.contact-col1 {
+    width: 120px;
+    height: 36px;
+    position: relative;
+    float: left;
+    font-weight: bold;
+}
+
+.contact-col2 {
+    width: 320px;
+    height: 36px;
+    position: relative;
+    float: left;
+}
+
+.obligation-button {
+    width: 200px;
+    height: 26px;
+    line-height: 20px;
+    position: relative;
+    float: right;
+    font-size: 12px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 0 8px;
+    background: #0d6636;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+.contact-button {
+   
+  
+    outline: none;
+
+    position: relative;
+    float: left;
+    width:100%;
+    height: 43px;
+    margin-left:0;
+    cursor: pointer;
+    background-color:#e0a147;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.projectitem .imgp {
+    width: 100%;
+    height: 255px;
+    float: left;
+    position: relative;
+    background-position: center top;
+    background-size: cover;
+}
